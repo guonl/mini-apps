@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#118fff",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#9BABBA",
+    "selectedColor": "#495056",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tar-home.png",
+        "selectedIconPath": "static/images/tar-home-on.png"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "发起",
+        "iconPath": "static/images/tar-about.png",
+        "selectedIconPath": "static/images/tar-about-on.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "动态",
+        "iconPath": "static/images/tar-topic.png",
+        "selectedIconPath": "static/images/tar-topic-on.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

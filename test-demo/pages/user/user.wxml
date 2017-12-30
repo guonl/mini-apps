@@ -1,0 +1,13 @@
+<!-- <block wx:for="{{post_key}}" wx:for-item="item">
+  <view>{{item.date}}</view>
+  <view>{{item.title}}</view>
+  <view>{{item.author}}</view>
+  <view>{{item.dateTime}}</view>
+</block> -->
+
+<block wx:for="{{post_list}}" wx:for-item="item">
+  <view>{{item.avatar}}</view>
+  <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  <view>{{item.conste}}</view>
+</block>
